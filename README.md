@@ -7,18 +7,14 @@ Driver for controlling OnRobot RG2 Gripper on Universal Robots UR5e via Modbus T
 - [Features](#features)
 - [Installation](#installation)
 - [Quick Start](#quick-start)
-- [API Documentation](#api-documentation)
-- [Hardware Setup](#hardware-setup)
 - [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
 
 ## Features
 
 - **Intuitive Control**:
 
   - `connect()` - Create a connection to the gripper
-  - disconnect() - Close connection
+  - `disconnect()` - Close connection
   - `read_gripper_width()` - Read the width of the gripper
   - `set_gripper_width()` - Move to specific width (0-100mm), pass the desired Force and width
 - **Precision Control**:
