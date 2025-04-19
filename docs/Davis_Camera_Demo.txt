@@ -1,0 +1,25 @@
+ Program
+   Variables Setup
+   Robot Program
+     Loop
+       RG Grip
+       MoveJ
+         'H'
+         Home_Pose
+         'Eyes Locate'
+         Eyes Locate
+           Eyes Get Workpiece
+             EyesWorkpCoun_2≔eyes_workp_cnt
+             EyesWorkpPose_2≔eyes_workp_pose
+             EyesWorkpiece_2≔eyes_workp_type
+             Commands
+               Eyes Pick
+                 TCP
+                 MoveJ
+                   EyesPickAppr
+                 MoveL
+                   EyesPickPose
+                 RG Grip
+                 MoveL
+                   EyesPickAppr
+     RG Grip
